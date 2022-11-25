@@ -1,0 +1,26 @@
+@charset "utf-8";
+.box{
+    width: 100%;
+}
+.cobox{
+    width:1920px;
+    height:969px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    position: relative;
+}
+header{
+    width:384px;
+}
+.hweb{
+    width:384px;
+    background-color: #FFF8C2;
+    height: 969px;
+    box-sizing: border-box;
+}
+main{
+    width: 1536px;
+    position: absolute;
+    top:0px;
+    right: 0px;
+}
