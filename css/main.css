@@ -364,6 +364,11 @@ a{
     bottom: 100px;
     left:35%;
 }
+.project .order{
+    position: absolute;
+    top:10%;
+    font-size: 32px;
+}
 .project2{
     display: none;
 }
@@ -455,6 +460,9 @@ a{
 }
 .p_inner a:hover{
     text-decoration: underline;
+}
+.project1 a{
+    left:25%;
 }
 .p_inner i.fa-hotel{
     font-size: 44px;

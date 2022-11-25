@@ -102,6 +102,7 @@ $(function(){
         }
         $('i.fa-arrow-alt-circle-right').show();
         project(c);
+        order(c+1);
     });
     $('i.fa-arrow-alt-circle-right').click(function(){
         if(c==1){
@@ -112,6 +113,7 @@ $(function(){
         }
         $('i.fa-arrow-alt-circle-left').show();
         project(c);
+        order(c+1);
     });
     function an(){
             $('.an1').stop().animate({'top':'-40px'},300).animate({'top':'0px'},300);
@@ -119,4 +121,7 @@ $(function(){
             $('.an3').stop().delay(1200).animate({'top':'-40px'},300).animate({'top':'0px'},300);
     }
     let production=setInterval(an,3600);
+    function order(a){
+        $('.order').html(`<p>${a}/3</p>`);
+    }
 });
