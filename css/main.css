@@ -592,10 +592,12 @@ a{
     width: 64px;
     text-align: center;
 }
-
+.img_box_f img:first-child{
+    margin-bottom: 20px;
+}
 .data_box p{
     font-size: 40px;
-    line-height: 82px;
+    line-height: 95px;
     padding-left: 100px;
 }
 .good{
